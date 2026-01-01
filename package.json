@@ -1,0 +1,21 @@
+{
+  "name": "sovereign-edge-anchor",
+  "version": "0.1.0",
+  "description": "Local-first Nostr-anchored continuity server for sovereign authors",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "anchor": "node anchor.js",
+    "state": "node state.js",
+    "authorize": "node authorize.js",
+    "serve": "node server.js"
+  },
+  "dependencies": {
+    "nostr-tools": "^2.7.0",
+    "websocket-polyfill": "^0.0.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
