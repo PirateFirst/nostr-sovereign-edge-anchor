@@ -18,3 +18,14 @@ Future changes will:
 - Never remove author revocation authority
 
 Breaking changes require a new major version.
+## Stability Covenant
+
+This repository defines a minimal, auditable continuity primitive.
+
+Future changes will:
+- Preserve fail-closed behavior
+- Never introduce content storage on relays
+- Never auto-activate stewardship
+- Never remove author revocation authority
+
+Breaking changes require a new major version.
