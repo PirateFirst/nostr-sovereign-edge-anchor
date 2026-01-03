@@ -12,6 +12,8 @@
     "serve": "node server.js"
   },
   "dependencies": {
+   "dotenv": "^17.2.3",
+ e639d13 (Initial sovereign edge continuity implementation)
     "nostr-tools": "^2.7.0",
     "websocket-polyfill": "^0.0.3"
   },
