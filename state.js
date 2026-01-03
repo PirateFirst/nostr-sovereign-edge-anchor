@@ -36,5 +36,4 @@ async function declareState(state) {
   process.exit(0);
 }
 
-declareState(process.argv[2]);
- e639d13 (Initial sovereign edge continuity implementation)
+
